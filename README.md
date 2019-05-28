@@ -2,7 +2,7 @@
 DEBS 2016 Grand Challenge: Social networks: Query 1
 
 ## Équipe de développement
-* ClemencePetit
+* Chapuis martin
 * Valadares carlos
 * Kamissokho Yaya
 
