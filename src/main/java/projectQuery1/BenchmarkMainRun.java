@@ -57,8 +57,8 @@ public class BenchmarkMainRun {
 		this.blockingQueueComment = new ArrayBlockingQueue<PostCom>(50);
 		this.blockingQueuePostCom = new ArrayBlockingQueue<PostCom>(100);
 		
-		this.fPost = new File("C:\\Users\\Martin\\Desktop\\Programmation\\Eclipse\\projectQuery1\\" + test + "\\posts.dat");
-		this.fComment = new File("C:\\Users\\Martin\\Desktop\\Programmation\\Eclipse\\projectQuery1\\" + test + "\\comments.dat");
+		this.fPost = new File("Tests\\" + test + "\\posts.dat");
+		this.fComment = new File("Tests\\" + test + "\\comments.dat");
 		
 		this.service = Executors.newFixedThreadPool(4);
 		this.service2T = Executors.newFixedThreadPool(2);
