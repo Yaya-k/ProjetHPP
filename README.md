@@ -14,4 +14,4 @@ DEBS 2016 Grand Challenge: Social networks: Query 1
 Nous avons le resultat du benchmark pour deux architectures different
 
 ## Pour travailler à partir de ces sources
-Modifier juste le nom du test à executer
+Modifier juste le nom du test à executer dans l'architecture voulue(Main,Main_2T)
