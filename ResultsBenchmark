@@ -1,0 +1,32 @@
+# Run complete. Total time: 00:02:09
+
+Benchmark                                                                       Mode   Cnt  Score   Error   Units
+
+projectQuery1.BenchmarkMainRun.benchmarkMainRun                                thrpt    10  1,622 ± 0,113  ops/ms
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun                              thrpt    10  1,943 ± 0,061  ops/ms
+
+projectQuery1.BenchmarkMainRun.benchmarkMainRun                                 avgt    10  0,625 ± 0,032   ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun                               avgt    10  0,512 ± 0,010   ms/op
+
+projectQuery1.BenchmarkMainRun.benchmarkMainRun                               sample  7026  0,700 ± 0,007   ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMainRun:benchmarkMainRun·p0.00        sample        0,496           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMainRun:benchmarkMainRun·p0.50        sample        0,644           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMainRun:benchmarkMainRun·p0.90        sample        0,880           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMainRun:benchmarkMainRun·p0.95        sample        0,984           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMainRun:benchmarkMainRun·p0.99        sample        1,576           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMainRun:benchmarkMainRun·p0.999       sample        2,015           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMainRun:benchmarkMainRun·p0.9999      sample        2,634           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMainRun:benchmarkMainRun·p1.00        sample        2,634           ms/op
+
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun                             sample  8436  0,527 ± 0,002   ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun:benchmarkMain2TRun·p0.00    sample        0,434           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun:benchmarkMain2TRun·p0.50    sample        0,510           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun:benchmarkMain2TRun·p0.90    sample        0,582           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun:benchmarkMain2TRun·p0.95    sample        0,620           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun:benchmarkMain2TRun·p0.99    sample        0,796           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun:benchmarkMain2TRun·p0.999   sample        1,437           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun:benchmarkMain2TRun·p0.9999  sample        1,915           ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun:benchmarkMain2TRun·p1.00    sample        1,915           ms/op
+
+projectQuery1.BenchmarkMainRun.benchmarkMainRun                                   ss    10  4,163 ± 2,071   ms/op
+projectQuery1.BenchmarkMainRun.benchmarkMain2TRun                                 ss    10  3,882 ± 1,314   ms/op
